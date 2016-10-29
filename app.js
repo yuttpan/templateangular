@@ -7,15 +7,15 @@ app.config(function($routeProvider) {
 
             // route for the home page
             .when('/', {
-                templateUrl : 'main/main.html',
+                templateUrl : 'pages/main/main.html',
                 controller  : 'MainCtrl'
             })
 
             // route for the about page
-          //  .when('/about', {
-          //      templateUrl : 'pages/about.html',
-           //     controller  : 'aboutController'
-          //  })
+           .when('/lab_result', {
+                templateUrl : 'pages/lab_result/lab_result.html',
+                controller  : 'LabResultCtrl'
+            })
 
             // route for the contact page
          //   .when('/contact', {
