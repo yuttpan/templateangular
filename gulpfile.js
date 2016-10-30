@@ -14,6 +14,6 @@ gulp.task('default', function () {
         }
     });
 
-    gulp.watch("./*.*").on("change", reload);
-    gulp.watch("./pages/*.*").on("change", reload);
+    gulp.watch("./**/*.*").on("change", reload);
+    gulp.watch("./pages/**/*.*").on("change", reload);
 });
